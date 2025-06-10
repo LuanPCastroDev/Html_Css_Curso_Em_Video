@@ -8,6 +8,15 @@
 <body>
     <h1> Reproduzindo aúdio em HTML 5.</h1>
     <p> Vamos aprender a reproduzir audio em Html. </p>
-    
+    <audio preload = "auto" autoplay controls>
+        <audio src = "midia/For Granted - Dyalla.mp3" controls autoplay> </audio>
+        <!-- Sempre utilizar um desses formatos = MP3, WAV, OGG -->
+        <source src = "midia/guanacast-33.mp3" type = "audio/mpeg">
+        <source src = "midia/guanacast-33.mp3" type = "audio/ogg">
+        <source src = "midia/guanacast-33.mp3" type = "audio/wav">
+        <p> Infelizmente seu navegador não consegue reproduzir áudio. 
+        <a href = "midia/guanacast-33.mp3">  Clique aqui para fazer o download 
+        </a> </p>
+    </audio>
 </body>
 </html>
